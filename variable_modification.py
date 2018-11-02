@@ -1,0 +1,6 @@
+print("This is your word:\nThe development of the _____ system used in ______ has been a ______ undertaking.")
+print("Solve the answers below")
+name1 = input("Enter a field of endeavor : " )
+name2 = input("Enter the main thing related to it: " )
+name3 = input("Which country did it? Was it multicultural or other? " )
+print("The development of the " + name2 + " system used in " + name1 + " has been (a/an) " + name3.capitalize() + " undertaking.")
